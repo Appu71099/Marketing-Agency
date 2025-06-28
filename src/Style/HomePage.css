@@ -1,0 +1,34 @@
+.hero-wrapper {
+  background-color: #00a7c6; /* Teal blue */
+  padding: 60px 0;
+ 
+}
+
+.hero-card {
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 40px;
+}
+
+.hero-heading {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-subtext {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.hero-buttons button {
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}

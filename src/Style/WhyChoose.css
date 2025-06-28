@@ -1,0 +1,38 @@
+.why-choose {
+  background-color: #ffffff;
+}
+
+.feature-card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-box {
+  width: 48px;
+  height: 48px;
+  background-color: #00a7c6;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+@media (max-width: 575.98px) {
+  .feature-card {
+    text-align: center;
+  }
+
+  .icon-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
