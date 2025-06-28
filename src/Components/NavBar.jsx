@@ -1,6 +1,6 @@
 import React from 'react'
-import { Navbar, Nav, Container, Form, NavDropdown } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import { Navbar, Nav, Container, Form } from 'react-bootstrap';
+
 export default function NavBar() {
     return (
         <Navbar bg="light" variant="light" expand="lg" sticky="top">

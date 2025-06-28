@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Card, Container } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 
 import '../Style/AboutPage.css'; // Assuming you have a CSS file for custom styles
 
